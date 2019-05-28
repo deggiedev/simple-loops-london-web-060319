@@ -42,7 +42,7 @@ def until_iterator(number_of_times)
   puts phrase
   end
 end
-require 'pry'
+
 def for_iterator(number_of_times)
   x = number_of_times
   x.to_i
@@ -52,4 +52,3 @@ def for_iterator(number_of_times)
   puts phrase
 end
 end
-binding.pry
