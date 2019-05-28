@@ -44,7 +44,7 @@ def until_iterator(number_of_times)
 end
 
 def for_iterator(number_of_times)
-  x = #{number_of_times}.to_i
+  x = #{number_of_times}to_i
   for 1..x
   # remember that `for` requires a range of numbers. How can we turn our number into a range?
   phrase = "Welcome to Flatiron School's Web Development Course!"
